@@ -1,2 +1,1 @@
-# AWS_ML2_BikeShare
-Predict Bike Sharing Demand with AutoGluon
+## You will find everything you need in the /Project folder
