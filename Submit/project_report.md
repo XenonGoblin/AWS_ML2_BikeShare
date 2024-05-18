@@ -27,11 +27,11 @@ I would spend more time feature engineering, and trying to understand the data b
 
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
-|model|presets|feature|auto_stack|score|
+|model|boosting|feature|auto_stack|score|
 |--|--|--|--|--|
-|initial|best_quality|false|false|1.71439|
-|add_features|best_quality|true|false|0.74074|
-|hpo|best_quality|true|true|0.54915|
+|initial|gdbt|false|false|1.71439|
+|add_features|gdbt|true|false|0.74074|
+|hpo|dart|true|true|0.54444|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
@@ -42,4 +42,4 @@ I would spend more time feature engineering, and trying to understand the data b
 ![model_test_score.png](img/model_test_score.png)
 
 ## Summary
-In summary, I was able to improve the kaggle score for the bike share prediction from `1.71` to `0.55` by adding features and enabling auto_stack.
+In summary, I was able to improve the kaggle score for the bike share prediction from `1.71` to `0.54` by adding features and enabling auto_stack.
